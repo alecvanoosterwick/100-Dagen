@@ -1,0 +1,24 @@
+C:\Users\u0093666\source\repos\Delegates_WPF\Delegates_Models\bin\Debug\Delegates_Models.dll
+C:\Users\u0093666\source\repos\Delegates_WPF\Delegates_Models\bin\Debug\Delegates_Models.pdb
+C:\Users\u0093666\source\repos\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.csprojAssemblyReference.cache
+C:\Users\u0093666\source\repos\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.csproj.CoreCompileInputs.cache
+C:\Users\u0093666\source\repos\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.dll
+C:\Users\u0093666\source\repos\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.pdb
+D:\TM - Programming advanced\les01 - Delegates\oefeningen\Delegates_WPF\Delegates_Models\bin\Debug\Delegates_Models.dll
+D:\TM - Programming advanced\les01 - Delegates\oefeningen\Delegates_WPF\Delegates_Models\bin\Debug\Delegates_Models.pdb
+D:\TM - Programming advanced\les01 - Delegates\oefeningen\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.csprojAssemblyReference.cache
+D:\TM - Programming advanced\les01 - Delegates\oefeningen\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.csproj.CoreCompileInputs.cache
+D:\TM - Programming advanced\les01 - Delegates\oefeningen\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.dll
+D:\TM - Programming advanced\les01 - Delegates\oefeningen\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.pdb
+D:\TM - Programming advanced\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\bin\Debug\Delegates_Models.dll
+D:\TM - Programming advanced\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\bin\Debug\Delegates_Models.pdb
+D:\TM - Programming advanced\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.csprojAssemblyReference.cache
+D:\TM - Programming advanced\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.csproj.CoreCompileInputs.cache
+D:\TM - Programming advanced\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.dll
+D:\TM - Programming advanced\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.pdb
+C:\Users\Alec\100-Dagen\Gevorderde\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\bin\Debug\Delegates_Models.dll
+C:\Users\Alec\100-Dagen\Gevorderde\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\bin\Debug\Delegates_Models.pdb
+C:\Users\Alec\100-Dagen\Gevorderde\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.csprojAssemblyReference.cache
+C:\Users\Alec\100-Dagen\Gevorderde\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.csproj.CoreCompileInputs.cache
+C:\Users\Alec\100-Dagen\Gevorderde\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.dll
+C:\Users\Alec\100-Dagen\Gevorderde\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.pdb

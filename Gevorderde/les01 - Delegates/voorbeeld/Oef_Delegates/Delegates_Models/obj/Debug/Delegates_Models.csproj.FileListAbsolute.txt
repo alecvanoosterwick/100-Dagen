@@ -1,0 +1,11 @@
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_Models\bin\Debug\Delegates_Models.dll
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_Models\bin\Debug\Delegates_Models.pdb
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_Models\obj\Debug\Delegates_Models.csprojAssemblyReference.cache
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_Models\obj\Debug\Delegates_Models.csproj.CoreCompileInputs.cache
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_Models\obj\Debug\Delegates_Models.dll
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_Models\obj\Debug\Delegates_Models.pdb
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_Models\bin\Debug\Delegates_Models.dll
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_Models\bin\Debug\Delegates_Models.pdb
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_Models\obj\Debug\Delegates_Models.csproj.CoreCompileInputs.cache
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_Models\obj\Debug\Delegates_Models.dll
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_Models\obj\Debug\Delegates_Models.pdb

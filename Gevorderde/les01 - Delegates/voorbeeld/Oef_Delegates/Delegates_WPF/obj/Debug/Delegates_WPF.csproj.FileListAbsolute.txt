@@ -1,0 +1,38 @@
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\bin\Debug\Delegates_WPF.exe.config
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\bin\Debug\Delegates_WPF.exe
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\bin\Debug\Delegates_WPF.pdb
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\bin\Debug\Delegates_Models.dll
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\bin\Debug\Delegates_Models.pdb
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.csprojAssemblyReference.cache
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\MainWindow.g.cs
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\App.g.cs
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF_MarkupCompile.cache
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF_MarkupCompile.lref
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\MainWindow.baml
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.g.resources
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.Properties.Resources.resources
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.csproj.GenerateResource.cache
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.csproj.CoreCompileInputs.cache
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.csproj.CopyComplete
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.exe
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.pdb
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\DelegateWindow.g.cs
+D:\TM - Programming advanced\les07 - Delegates en Events\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\DelegateWindow.baml
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\bin\Debug\Delegates_WPF.exe.config
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\bin\Debug\Delegates_WPF.exe
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\bin\Debug\Delegates_WPF.pdb
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\bin\Debug\Delegates_Models.dll
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\bin\Debug\Delegates_Models.pdb
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.csprojAssemblyReference.cache
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\MainWindow.g.cs
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\App.g.cs
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF_MarkupCompile.cache
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF_MarkupCompile.lref
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\MainWindow.baml
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.g.resources
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.Properties.Resources.resources
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.csproj.GenerateResource.cache
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.csproj.CoreCompileInputs.cache
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.csproj.CopyComplete
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.exe
+D:\TM - Programming advanced\les01 - Delegates\voorbeeld\Oef_Delegates\Delegates_WPF\obj\Debug\Delegates_WPF.pdb
