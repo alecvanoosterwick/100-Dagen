@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Delegates_WPF"
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" >
     <StackPanel>
         <Button x:Name="btnDelegatesIntro" Content="Intro Delegates" Click="BtnDelegatesIntro_Click" Margin="5"/>
         <Button x:Name="btnDelegatesInAction" Content="Delegates In Action" Click="BtnDelegatesInAction_Click" Margin="5"/>

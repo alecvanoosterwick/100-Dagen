@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Werknemer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="600">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50">
+            </RowDefinition>
+            
+            <RowDefinition Height="50">
+            </RowDefinition>
+            <RowDefinition Height="300">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="Achternaam:" Margin="10"></Label>
+        <Label Grid.Row="1" Grid.Column="0" Content="Voornaam:" Margin="10"></Label>
+        <Label Grid.Row="2" Grid.Column="0" Content="Verdiensten:" Margin="10"></Label>
+
+        <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtAnaam" Margin="10"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtVnaam" Margin="10"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtVerdienst" Margin="10"></TextBox>
+
+        <Button Grid.Row="0" Grid.Column="2" x:Name="btnToevoegen" Content="Toevoegen" Margin="10" Click="btnToevoegen_Click"></Button>
+        <TextBox Grid.Row="3" Grid.ColumnSpan="3" Name="lblResultaat" Margin="10"></TextBox>
     </Grid>
 </Window>

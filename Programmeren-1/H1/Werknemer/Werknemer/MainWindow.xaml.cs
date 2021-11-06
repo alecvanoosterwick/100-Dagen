@@ -24,5 +24,27 @@ namespace Werknemer
         {
             InitializeComponent();
         }
+
+        private void btnToevoegen_Click(object sender, RoutedEventArgs e)
+        {
+            string foutmelding = "";
+
+            if (string.IsNullOrEmpty(txtAnaam.Text))
+            {
+                foutmelding = "Achternaam moet ingevoerd worden";
+            }
+            if (string.IsNullOrEmpty(txtVnaam.Text))
+            {
+                foutmelding = "Voornaam moet ingevoerd worden";
+            }
+            if (!double.TryParse(txtVerdienst.Text, out double verdienst))
+            {
+                foutmelding = "Verdiensten moet een numerieke waarden hebben";
+            }
+            if (string.IsNullOrEmpty(foutmelding))
+            {
+                lblResultaat.Text = txtAnaam.Text
+            }
+        }
     }
 }

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Delegates_WPF"
         mc:Ignorable="d"
           xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        Title="DelegatesIntro" Height="450" Width="800" Loaded="Window_Loaded" >
+        Title="DelegatesIntro" Height="450" Width="800"  Loaded="Window_Loaded" >
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -27,11 +27,11 @@
         <ComboBox x:Name="cmbProducten" Grid.Row="0" Grid.Column="1" Margin="5"
               materialDesign:HintAssist.Hint="Search"
               IsEditable="True"/>
-        <Button x:Name="btnKopen" Content="Kopen" Grid.Row="0" Grid.Column="2"  Margin="5"/>
+        <Button x:Name="btnKopen" Content="Kopen" Grid.Row="0" Grid.Column="2"  Margin="5" Click="Kopen_click"/>
         <ListBox x:Name="lstWinkelkar" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="5" />
-        <Button x:Name="btnAfdrukken1" Content="Bon Afdrukken (1)" Grid.Row="0" Grid.Column="3" Margin="5" Click="BtnAfdrukken1_Click"/>
+        <Button x:Name="btnAfdrukken1" Content="Bon Afdrukken (1)" Grid.Row="0" Grid.Column="3" Margin="5" Click="Afdrukken1_Click" />
         <TextBlock x:Name="txtBon1" Grid.Row="1" Grid.Column="3" Margin="5"/>
-        <Button x:Name="btnAfdrukken2" Content="Bon Afdrukken (2)" Grid.Row="0" Grid.Column="4" Margin="5" />
+        <Button x:Name="btnAfdrukken2" Content="Bon Afdrukken (2)" Grid.Row="0" Grid.Column="4" Margin="5" Click="Afdrukken2_Click" />
         <TextBlock x:Name="txtBon2" Grid.Row="1" Grid.Column="4" Margin="5"/>
     </Grid>
 </Window>

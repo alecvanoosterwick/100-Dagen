@@ -9,5 +9,5 @@ namespace Delegates_Models
     public delegate decimal KortingHandler(decimal bedrag);
     public delegate string PrintHandler(Winkelkar winkelkar);
 
-
+    
 }

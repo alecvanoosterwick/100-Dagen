@@ -24,28 +24,73 @@ namespace Delegates_WPF
         {
             InitializeComponent();
         }
-        Winkelkar winkelekar = new Winkelkar();
+        Winkelkar winkelkar = new Winkelkar();
         Printer printer = new Printer();
+        KortingBerekenaar kortingBerekenaar = new KortingBerekenaar();
+
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-           List<Product> product = new List<Product>();
+            List<Product> products = new List<Product>();
+            products.Add(new Product() { Code = 1, Omschrijving = "T-shirt", Prijs = 1.0m });
+            products.Add(new Product() { Code = 2, Omschrijving = "T-shirt", Prijs = 2.0m });
+            products.Add(new Product() { Code = 3, Omschrijving = "T-shirt", Prijs = 3.0m });
 
-            product.Add(new Product() { Code = 1, Omschrijving = "T-shirt", Prijs = 1.0m});
-            product.Add(new Product() { Code = 2, Omschrijving = "T-shirt", Prijs = 2.0m });
-            product.Add(new Product() { Code = 3, Omschrijving = "T-shirt", Prijs = 3.0m });
-            product.Add(new Product() { Code = 4, Omschrijving = "T-shirt", Prijs = 4.0m });
-            product.Add(new Product() { Code = 5, Omschrijving = "T-shirt", Prijs = 5.0m });
-
-            cmbProducten.ItemsSource = product;
-
-            lstWinkelkar.ItemsSource = winkelekar.WinkelkarItems;
+            cmbProducten.ItemsSource = products;
+            lstWinkelkar.ItemsSource = winkelkar.WinkelkarItems;
         }
-        private void BtnAfdrukken1_Click(object sender, RoutedEventArgs e)
+        private void Kopen_click(object sender, RoutedEventArgs e)
         {
-            PrintHandler print = new PrintHandler(printer.PrintMethod1);
+            string foutmelding = Valideer("txtAantal");
+            foutmelding += Valideer("cmbProducten");
 
-            txtBon1.Text = print.Invoke(winkelekar);
+            if (string.IsNullOrWhiteSpace(foutmelding))
+            {
+                WinkelkarItem winkelkaritem = new WinkelkarItem() { Aantal = int.Parse(txtAantal.Text), Product = cmbProducten.SelectedItem as Product };
+                winkelkar.VoegWinkelkarItemToe(winkelkaritem);
+                lstWinkelkar.Items.Refresh();
+            }
+            else
+            {
+                MessageBox.Show(foutmelding);
+            }
+        }
+
+
+        private string Valideer(string iets)
+        {
+            string foutmelding = "";
+            if (iets == "txtAantal" && !int.TryParse(txtAantal.Text, out int aanntal))
+            {
+                foutmelding = "aantal moet een numerieke waarde hebben";
+            }
+            if (iets == "cmbProducten" && cmbProducten.SelectedItem == null)
+            {
+                foutmelding += "Er moet een product geselecteerd zijn";
+            }
+            return foutmelding;
+        }
+        private void Afdrukken1_Click(object sender, RoutedEventArgs e)
+        {
+            PrintHandler PrintDc = new PrintHandler(printer.PrintMethod1);
+            txtBon1.Text = PrintDc.Invoke(winkelkar);
+
+            decimal totaal = winkelkar.Totaal();
+            decimal korting = winkelkar.Korting(kortingBerekenaar.Korting1);
+
+            txtBon1.Text = printer.TotaalAfdrukken(totaal, korting);
+        }
+        private void Afdrukken2_Click(object sender, RoutedEventArgs e)
+        {
+            PrintHandler PrintDc = new PrintHandler(printer.PrintMethod2);
+            txtBon2.Text = PrintDc.Invoke(winkelkar);
+
+            decimal totaal = winkelkar.Totaal();
+            decimal korting = winkelkar.Korting(kortingBerekenaar.Korting2);
+
+            txtBon2.Text = printer.TotaalAfdrukken(totaal, korting);
+
+
         }
     }
 }

@@ -39,6 +39,6 @@ namespace Delegates_WPF
             delegatesInAction.Show();
         }
 
-
+        
     }
 }
