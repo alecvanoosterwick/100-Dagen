@@ -22,3 +22,9 @@ C:\Users\Alec\Downloads\les01 - Delegates\les01 - Delegates\Startmap\Delegates_W
 C:\Users\Alec\Downloads\les01 - Delegates\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.csproj.CoreCompileInputs.cache
 C:\Users\Alec\Downloads\les01 - Delegates\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.dll
 C:\Users\Alec\Downloads\les01 - Delegates\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.pdb
+C:\Users\Alec\100-Dagen\Gevorderde\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\bin\Debug\Delegates_Models.dll
+C:\Users\Alec\100-Dagen\Gevorderde\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\bin\Debug\Delegates_Models.pdb
+C:\Users\Alec\100-Dagen\Gevorderde\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.csprojAssemblyReference.cache
+C:\Users\Alec\100-Dagen\Gevorderde\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.csproj.CoreCompileInputs.cache
+C:\Users\Alec\100-Dagen\Gevorderde\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.dll
+C:\Users\Alec\100-Dagen\Gevorderde\les01 - Delegates\Startmap\Delegates_WPF\Delegates_Models\obj\Debug\Delegates_Models.pdb

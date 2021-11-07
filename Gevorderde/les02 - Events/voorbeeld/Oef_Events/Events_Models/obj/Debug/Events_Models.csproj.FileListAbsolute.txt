@@ -1,0 +1,12 @@
+D:\TM - Programming advanced\les02 - Events\Oef_Events\Events_Models\bin\Debug\Events_Models.dll
+D:\TM - Programming advanced\les02 - Events\Oef_Events\Events_Models\bin\Debug\Events_Models.pdb
+D:\TM - Programming advanced\les02 - Events\Oef_Events\Events_Models\obj\Debug\Events_Models.csprojAssemblyReference.cache
+D:\TM - Programming advanced\les02 - Events\Oef_Events\Events_Models\obj\Debug\Events_Models.csproj.CoreCompileInputs.cache
+D:\TM - Programming advanced\les02 - Events\Oef_Events\Events_Models\obj\Debug\Events_Models.dll
+D:\TM - Programming advanced\les02 - Events\Oef_Events\Events_Models\obj\Debug\Events_Models.pdb
+C:\Users\Alec\Downloads\les02 - Events\les02 - Events\voorbeeld\Oef_Events\Events_Models\bin\Debug\Events_Models.dll
+C:\Users\Alec\Downloads\les02 - Events\les02 - Events\voorbeeld\Oef_Events\Events_Models\bin\Debug\Events_Models.pdb
+C:\Users\Alec\Downloads\les02 - Events\les02 - Events\voorbeeld\Oef_Events\Events_Models\obj\Debug\Events_Models.csprojAssemblyReference.cache
+C:\Users\Alec\Downloads\les02 - Events\les02 - Events\voorbeeld\Oef_Events\Events_Models\obj\Debug\Events_Models.csproj.CoreCompileInputs.cache
+C:\Users\Alec\Downloads\les02 - Events\les02 - Events\voorbeeld\Oef_Events\Events_Models\obj\Debug\Events_Models.dll
+C:\Users\Alec\Downloads\les02 - Events\les02 - Events\voorbeeld\Oef_Events\Events_Models\obj\Debug\Events_Models.pdb

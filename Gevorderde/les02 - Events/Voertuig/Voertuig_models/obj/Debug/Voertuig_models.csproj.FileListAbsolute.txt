@@ -1,0 +1,5 @@
+C:\Users\Alec\100-Dagen\Gevorderde\Voertuig\Voertuig_models\bin\Debug\Voertuig_models.dll
+C:\Users\Alec\100-Dagen\Gevorderde\Voertuig\Voertuig_models\bin\Debug\Voertuig_models.pdb
+C:\Users\Alec\100-Dagen\Gevorderde\Voertuig\Voertuig_models\obj\Debug\Voertuig_models.csproj.CoreCompileInputs.cache
+C:\Users\Alec\100-Dagen\Gevorderde\Voertuig\Voertuig_models\obj\Debug\Voertuig_models.dll
+C:\Users\Alec\100-Dagen\Gevorderde\Voertuig\Voertuig_models\obj\Debug\Voertuig_models.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events_WPF", "Events_WPF\Events_WPF.csproj", "{4C56E2D4-3151-44AC-9C37-3D3678E4E631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events_Models", "Events_Models\Events_Models.csproj", "{6117011B-197B-44FD-8422-F4DE97F6E711}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C56E2D4-3151-44AC-9C37-3D3678E4E631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C56E2D4-3151-44AC-9C37-3D3678E4E631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C56E2D4-3151-44AC-9C37-3D3678E4E631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C56E2D4-3151-44AC-9C37-3D3678E4E631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6117011B-197B-44FD-8422-F4DE97F6E711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6117011B-197B-44FD-8422-F4DE97F6E711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6117011B-197B-44FD-8422-F4DE97F6E711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6117011B-197B-44FD-8422-F4DE97F6E711}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF5A5EE7-565F-4E32-AD01-B51618EF046D}
+	EndGlobalSection
+EndGlobal

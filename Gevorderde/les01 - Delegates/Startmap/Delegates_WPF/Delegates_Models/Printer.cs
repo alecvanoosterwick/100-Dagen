@@ -33,8 +33,23 @@ namespace Delegates_Models
         
         public string TotaalAfdrukken(decimal totaal, decimal korting)
         {
-            return "";
+            StringBuilder tekst = new StringBuilder();
 
+            tekst.AppendLine("Totaal: " + totaal.ToString());
+            tekst.AppendLine("Korting: " + korting.ToString()); ;
+            tekst.AppendLine("Totaal met korting: " + (totaal - korting).ToString());
+            return tekst.ToString();
+
+        }
+
+        public string WinkelkarExtendedAfdrukken(Winkelkar winkelkar)
+        {
+            string tekst = "";
+            if (winkelkar is WinkelkarExtended winkelkarExtended)
+            {
+                tekst += TotaalAfdrukken(winkelkarExtended.Totaal(), winkelkarExtended.Korting());
+            }
+            return tekst;
         }
 
 

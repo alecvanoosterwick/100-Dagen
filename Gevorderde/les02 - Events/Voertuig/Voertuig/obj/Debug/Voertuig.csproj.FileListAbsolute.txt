@@ -1,0 +1,5 @@
+C:\Users\Alec\100-Dagen\Gevorderde\Voertuig\Voertuig\obj\Debug\Voertuig.csprojAssemblyReference.cache
+C:\Users\Alec\100-Dagen\Gevorderde\Voertuig\Voertuig\obj\Debug\MainWindow.g.cs
+C:\Users\Alec\100-Dagen\Gevorderde\Voertuig\Voertuig\obj\Debug\App.g.cs
+C:\Users\Alec\100-Dagen\Gevorderde\Voertuig\Voertuig\obj\Debug\Voertuig_MarkupCompile.cache
+C:\Users\Alec\100-Dagen\Gevorderde\Voertuig\Voertuig\obj\Debug\Voertuig_MarkupCompile.lref

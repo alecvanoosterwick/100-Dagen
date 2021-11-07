@@ -10,8 +10,6 @@ namespace Delegates_Models
     {
         public decimal Korting1(decimal bedrag)
         {
-            decimal korting = 0 ;
-            decimal resultaat;
             if (bedrag > 250)
             {
                 return 15m;

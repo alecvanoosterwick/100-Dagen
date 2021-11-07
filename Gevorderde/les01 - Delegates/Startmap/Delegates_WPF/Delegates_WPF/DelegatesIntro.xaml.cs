@@ -78,7 +78,7 @@ namespace Delegates_WPF
             decimal totaal = winkelkar.Totaal();
             decimal korting = winkelkar.Korting(kortingBerekenaar.Korting1);
 
-            txtBon1.Text = printer.TotaalAfdrukken(totaal, korting);
+            txtBon1.Text += printer.TotaalAfdrukken(totaal, korting);
         }
         private void Afdrukken2_Click(object sender, RoutedEventArgs e)
         {
@@ -88,7 +88,7 @@ namespace Delegates_WPF
             decimal totaal = winkelkar.Totaal();
             decimal korting = winkelkar.Korting(kortingBerekenaar.Korting2);
 
-            txtBon2.Text = printer.TotaalAfdrukken(totaal, korting);
+            txtBon2.Text += printer.TotaalAfdrukken(totaal, korting);
 
 
         }
