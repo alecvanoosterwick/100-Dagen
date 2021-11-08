@@ -1,0 +1,36 @@
+16:47:33 
+ArgumentNullException
+Waarde kan niet null zijn.
+Parameternaam: entity
+   bij System.Data.Entity.Utilities.Check.NotNull[T](T value, String parameterName)
+   bij System.Data.Entity.DbContext.Entry[TEntity](TEntity entity)
+   bij Databinding_DAL.DatabaseOperations.AanpassenOrderlijn(Orderlijn orderlijn) in D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\DatabaseOperations.cs:regel 141
+--------------------------------------------------------------------------------
+
+16:48:13 
+ArgumentNullException
+Waarde kan niet null zijn.
+Parameternaam: entity
+   bij System.Data.Entity.Utilities.Check.NotNull[T](T value, String parameterName)
+   bij System.Data.Entity.DbContext.Entry[TEntity](TEntity entity)
+   bij Databinding_DAL.DatabaseOperations.AanpassenOrderlijn(Orderlijn orderlijn) in D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\DatabaseOperations.cs:regel 141
+--------------------------------------------------------------------------------
+
+19:00:44 
+DbUpdateException
+An error occurred while updating the entries. See the inner exception for details.
+   bij System.Data.Entity.Internal.InternalContext.SaveChanges()
+   bij System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   bij System.Data.Entity.DbContext.SaveChanges()
+   bij Databinding_DAL.DatabaseOperations.ToevoegenOrderlijn(Orderlijn orderlijn) in D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\DatabaseOperations.cs:regel 125
+--------------------------------------------------------------------------------
+
+11:18:02 
+DbUpdateException
+An error occurred while updating the entries. See the inner exception for details.
+   bij System.Data.Entity.Internal.InternalContext.SaveChanges()
+   bij System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   bij System.Data.Entity.DbContext.SaveChanges()
+   bij Databinding_DAL.DatabaseOperations.ToevoegenOrderlijn(Orderlijn orderlijn) in D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\DatabaseOperations.cs:regel 125
+--------------------------------------------------------------------------------
+

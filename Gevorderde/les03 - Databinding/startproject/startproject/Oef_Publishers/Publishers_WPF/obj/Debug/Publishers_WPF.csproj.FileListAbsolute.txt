@@ -1,0 +1,254 @@
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe.config
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.pdb
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.dll
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.dll
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.pdb
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll.config
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.pdb
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.xml
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csprojAssemblyReference.cache
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.g.cs
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\App.g.cs
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.cache
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.lref
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\App.baml
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.baml
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.g.resources
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.Properties.Resources.resources
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.GenerateResource.cache
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CoreCompileInputs.cache
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CopyComplete
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.exe
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.pdb
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\TM - Datamanipulatie\les07 - ADO.NET Entity Framework\oefeningen\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csprojAssemblyReference.cache
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.g.cs
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\App.g.cs
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.cache
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.lref
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.exe
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.pdb
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe.config
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.pdb
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.dll
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.dll
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.pdb
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll.config
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.xml
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.pdb
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\App.baml
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.baml
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.g.resources
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.Properties.Resources.resources
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.GenerateResource.cache
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CoreCompileInputs.cache
+D:\TM - Datamanipulatie\les08 - ADO.NET Entity Framework - Read 2\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CopyComplete
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe.config
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.pdb
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.dll
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.dll
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.pdb
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll.config
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.xml
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.pdb
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csprojAssemblyReference.cache
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.g.cs
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\NavPropWindow.g.cs
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\App.g.cs
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.cache
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.lref
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\App.baml
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.baml
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\NavPropWindow.baml
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.g.resources
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.Properties.Resources.resources
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.GenerateResource.cache
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CoreCompileInputs.cache
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CopyComplete
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.exe
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.pdb
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe.config
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.pdb
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.dll
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.dll
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.pdb
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll.config
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.xml
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.pdb
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csprojAssemblyReference.cache
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.g.cs
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\NavPropWindow.g.cs
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\App.g.cs
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.cache
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.lref
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\App.baml
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.baml
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\NavPropWindow.baml
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.g.resources
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.Properties.Resources.resources
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.GenerateResource.cache
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CoreCompileInputs.cache
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CopyComplete
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.exe
+D:\TM - Datamanipulatie\les08 - EF Navigatie Properties - kopie\oplossingen oefeningen EF\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.pdb
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csprojAssemblyReference.cache
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\CudWindow.g.cs
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.g.cs
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\NavPropWindow.g.cs
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\App.g.cs
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.cache
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.lref
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.exe
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.pdb
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe.config
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.pdb
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.dll
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.dll
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.pdb
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll.config
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.xml
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.pdb
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\App.baml
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\CudWindow.baml
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.baml
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\NavPropWindow.baml
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.g.resources
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.Properties.Resources.resources
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.GenerateResource.cache
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CoreCompileInputs.cache
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CopyComplete
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_Model.dll
+D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_Model.pdb
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csprojAssemblyReference.cache
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\CudWindow.g.cs
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.g.cs
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\App.g.cs
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.cache
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.lref
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.exe
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.pdb
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe.config
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.pdb
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.dll
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.dll
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_Model.dll
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.pdb
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll.config
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_Model.pdb
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.xml
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.pdb
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\App.baml
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\CudWindow.baml
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.baml
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.g.resources
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.Properties.Resources.resources
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.GenerateResource.cache
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CoreCompileInputs.cache
+D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CopyComplete
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csprojAssemblyReference.cache
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\CudWindow.g.cs
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.g.cs
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\App.g.cs
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.cache
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.lref
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.exe
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.pdb
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe.config
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.pdb
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.dll
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.dll
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_Model.dll
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.pdb
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_DAL.dll.config
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_Model.pdb
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.xml
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.pdb
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\App.baml
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\CudWindow.baml
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.baml
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.g.resources
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.Properties.Resources.resources
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.GenerateResource.cache
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CoreCompileInputs.cache
+D:\TM - Programming advanced\les03 - Databinding\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CopyComplete
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe.config
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.exe
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\Publishers_WPF.pdb
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.dll
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.xml
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\CudWindow.g.cs
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\App.g.cs
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.cache
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.lref
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\App.baml
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\CudWindow.baml
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\MainWindow.baml
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.g.resources
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.Properties.Resources.resources
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.GenerateResource.cache
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CoreCompileInputs.cache
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csproj.CopyComplete
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.exe
+C:\Users\u0093666\Downloads\oplossingen oefeningen Databinding V2\oplossingen oefeningen Databinding\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.pdb
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csprojAssemblyReference.cache
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\Views\CudView.g.cs
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\Views\MainView.g.cs
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\App.g.cs
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.cache
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.lref

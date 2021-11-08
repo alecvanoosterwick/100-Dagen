@@ -1,0 +1,12 @@
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_Dal\bin\Debug\Publishers_Dal.dll.config
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_Dal\bin\Debug\Publishers_Dal.dll
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_Dal\bin\Debug\Publishers_Dal.pdb
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_Dal\bin\Debug\EntityFramework.dll
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_Dal\bin\Debug\EntityFramework.xml
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_Dal\obj\Debug\Publishers_Dal.csproj.CoreCompileInputs.cache
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_Dal\obj\Debug\Publishers_Dal.csproj.CopyComplete
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_Dal\obj\Debug\Publishers_Dal.dll
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_Dal\obj\Debug\Publishers_Dal.pdb
+C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_Dal\obj\Debug\Publishers_Dal.csprojAssemblyReference.cache

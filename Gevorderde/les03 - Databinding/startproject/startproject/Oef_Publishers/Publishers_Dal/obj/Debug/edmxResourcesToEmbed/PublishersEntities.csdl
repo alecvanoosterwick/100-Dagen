@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PublisherModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Authors">
+    <Key>
+      <PropertyRef Name="au_id" />
+    </Key>
+    <Property Name="au_id" Type="String" MaxLength="11" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="au_lname" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="au_fname" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="phone" Type="String" MaxLength="12" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="address" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="city" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="state" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+    <Property Name="zip" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="contract" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="TitlesAuthors" Relationship="Self.FK_titleauthor_authors" FromRole="Authors" ToRole="TitlesAuthors" />
+  </EntityType>
+  <EntityType Name="Discounts">
+    <Key>
+      <PropertyRef Name="discounttype" />
+    </Key>
+    <Property Name="discounttype" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="stor_id" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="lowqty" Type="Int16" />
+    <Property Name="highqty" Type="Int16" />
+    <Property Name="discount" Type="Decimal" Precision="4" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="emp_id" />
+    </Key>
+    <Property Name="emp_id" Type="String" MaxLength="9" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="fname" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="minit" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="lname" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="job_id" Type="Int16" Nullable="false" />
+    <Property Name="job_lvl" Type="Byte" />
+    <Property Name="pub_id" Type="String" MaxLength="4" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="hire_date" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Jobs" Relationship="Self.FK_employee_jobs" FromRole="Employees" ToRole="Jobs" />
+    <NavigationProperty Name="Publishers" Relationship="Self.FK_employee_publishers" FromRole="Employees" ToRole="Publishers" />
+  </EntityType>
+  <EntityType Name="Jobs">
+    <Key>
+      <PropertyRef Name="job_id" />
+    </Key>
+    <Property Name="job_id" Type="Int16" Nullable="false" />
+    <Property Name="job_desc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="min_lvl" Type="Byte" Nullable="false" />
+    <Property Name="max_lvl" Type="Byte" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK_employee_jobs" FromRole="Jobs" ToRole="Employees" />
+  </EntityType>
+  <EntityType Name="Publishers">
+    <Key>
+      <PropertyRef Name="pub_id" />
+    </Key>
+    <Property Name="pub_id" Type="String" MaxLength="4" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="pub_name" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="city" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="state" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+    <Property Name="country" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK_employee_publishers" FromRole="Publishers" ToRole="Employees" />
+    <NavigationProperty Name="Titles" Relationship="Self.FK_titles_publishers" FromRole="Publishers" ToRole="Titles" />
+  </EntityType>
+  <EntityType Name="Sales">
+    <Key>
+      <PropertyRef Name="stor_id" />
+      <PropertyRef Name="ord_num" />
+      <PropertyRef Name="title_id" />
+    </Key>
+    <Property Name="stor_id" Type="String" MaxLength="4" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ord_num" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ord_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="qty" Type="Int16" Nullable="false" />
+    <Property Name="payterms" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="title_id" Type="String" MaxLength="6" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Stores" Relationship="Self.FK_sales_stores" FromRole="Sales" ToRole="Stores" />
+    <NavigationProperty Name="Titles" Relationship="Self.FK_sales_titles" FromRole="Sales" ToRole="Titles" />
+  </EntityType>
+  <EntityType Name="Stores">
+    <Key>
+      <PropertyRef Name="stor_id" />
+    </Key>
+    <Property Name="stor_id" Type="String" MaxLength="4" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="stor_name" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="stor_address" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="city" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="state" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+    <Property Name="zip" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK_sales_stores" FromRole="Stores" ToRole="Sales" />
+  </EntityType>
+  <EntityType Name="Titles">
+    <Key>
+      <PropertyRef Name="title_id" />
+    </Key>
+    <Property Name="title_id" Type="String" MaxLength="6" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="title_name" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="type" Type="String" MaxLength="12" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="pub_id" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="advance" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="royalty" Type="Int32" />
+    <Property Name="ytd_sales" Type="Int32" />
+    <Property Name="notes" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="pubdate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Publishers" Relationship="Self.FK_titles_publishers" FromRole="Titles" ToRole="Publishers" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK_sales_titles" FromRole="Titles" ToRole="Sales" />
+    <NavigationProperty Name="TitlesAuthors" Relationship="Self.FK_TitlesAuthors_titles" FromRole="Titles" ToRole="TitlesAuthors" />
+  </EntityType>
+  <EntityType Name="TitlesAuthors">
+    <Key>
+      <PropertyRef Name="au_id" />
+      <PropertyRef Name="title_id" />
+    </Key>
+    <Property Name="au_id" Type="String" MaxLength="11" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="title_id" Type="String" MaxLength="6" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="au_ord" Type="Byte" />
+    <Property Name="royaltyper" Type="Int32" />
+    <NavigationProperty Name="Authors" Relationship="Self.FK_titleauthor_authors" FromRole="TitlesAuthors" ToRole="Authors" />
+    <NavigationProperty Name="Titles" Relationship="Self.FK_TitlesAuthors_titles" FromRole="TitlesAuthors" ToRole="Titles" />
+  </EntityType>
+  <Association Name="FK_titleauthor_authors">
+    <End Role="Authors" Type="Self.Authors" Multiplicity="1" />
+    <End Role="TitlesAuthors" Type="Self.TitlesAuthors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Authors">
+        <PropertyRef Name="au_id" />
+      </Principal>
+      <Dependent Role="TitlesAuthors">
+        <PropertyRef Name="au_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_employee_jobs">
+    <End Role="Jobs" Type="Self.Jobs" Multiplicity="1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Jobs">
+        <PropertyRef Name="job_id" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="job_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_employee_publishers">
+    <End Role="Publishers" Type="Self.Publishers" Multiplicity="1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publishers">
+        <PropertyRef Name="pub_id" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="pub_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_titles_publishers">
+    <End Role="Publishers" Type="Self.Publishers" Multiplicity="0..1" />
+    <End Role="Titles" Type="Self.Titles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publishers">
+        <PropertyRef Name="pub_id" />
+      </Principal>
+      <Dependent Role="Titles">
+        <PropertyRef Name="pub_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_sales_stores">
+    <End Role="Stores" Type="Self.Stores" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stores">
+        <PropertyRef Name="stor_id" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="stor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_sales_titles">
+    <End Role="Titles" Type="Self.Titles" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Titles">
+        <PropertyRef Name="title_id" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="title_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TitlesAuthors_titles">
+    <End Role="Titles" Type="Self.Titles" Multiplicity="1" />
+    <End Role="TitlesAuthors" Type="Self.TitlesAuthors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Titles">
+        <PropertyRef Name="title_id" />
+      </Principal>
+      <Dependent Role="TitlesAuthors">
+        <PropertyRef Name="title_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PublishersEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Authors" EntityType="Self.Authors" />
+    <EntitySet Name="Discounts" EntityType="Self.Discounts" />
+    <EntitySet Name="Employees" EntityType="Self.Employees" />
+    <EntitySet Name="Jobs" EntityType="Self.Jobs" />
+    <EntitySet Name="Publishers" EntityType="Self.Publishers" />
+    <EntitySet Name="Sales" EntityType="Self.Sales" />
+    <EntitySet Name="Stores" EntityType="Self.Stores" />
+    <EntitySet Name="Titles" EntityType="Self.Titles" />
+    <EntitySet Name="TitlesAuthors" EntityType="Self.TitlesAuthors" />
+    <AssociationSet Name="FK_titleauthor_authors" Association="Self.FK_titleauthor_authors">
+      <End Role="Authors" EntitySet="Authors" />
+      <End Role="TitlesAuthors" EntitySet="TitlesAuthors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_employee_jobs" Association="Self.FK_employee_jobs">
+      <End Role="Jobs" EntitySet="Jobs" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_employee_publishers" Association="Self.FK_employee_publishers">
+      <End Role="Publishers" EntitySet="Publishers" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_titles_publishers" Association="Self.FK_titles_publishers">
+      <End Role="Publishers" EntitySet="Publishers" />
+      <End Role="Titles" EntitySet="Titles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_sales_stores" Association="Self.FK_sales_stores">
+      <End Role="Stores" EntitySet="Stores" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_sales_titles" Association="Self.FK_sales_titles">
+      <End Role="Titles" EntitySet="Titles" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TitlesAuthors_titles" Association="Self.FK_TitlesAuthors_titles">
+      <End Role="Titles" EntitySet="Titles" />
+      <End Role="TitlesAuthors" EntitySet="TitlesAuthors" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

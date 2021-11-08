@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PublisherModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Authors">
+    <Key>
+      <PropertyRef Name="au_id" />
+    </Key>
+    <Property Name="au_id" Type="nvarchar" MaxLength="11" Nullable="false" />
+    <Property Name="au_lname" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="au_fname" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="phone" Type="nvarchar" MaxLength="12" Nullable="false" />
+    <Property Name="address" Type="nvarchar" MaxLength="40" />
+    <Property Name="city" Type="nvarchar" MaxLength="20" />
+    <Property Name="state" Type="nvarchar" MaxLength="2" />
+    <Property Name="zip" Type="nvarchar" MaxLength="5" />
+    <Property Name="contract" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Discounts">
+    <Key>
+      <PropertyRef Name="discounttype" />
+    </Key>
+    <Property Name="discounttype" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="stor_id" Type="nvarchar" MaxLength="4" />
+    <Property Name="lowqty" Type="smallint" />
+    <Property Name="highqty" Type="smallint" />
+    <Property Name="discount" Type="decimal" Precision="4" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="emp_id" />
+    </Key>
+    <Property Name="emp_id" Type="nvarchar" MaxLength="9" Nullable="false" />
+    <Property Name="fname" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="minit" Type="nvarchar" MaxLength="1" />
+    <Property Name="lname" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="job_id" Type="smallint" Nullable="false" />
+    <Property Name="job_lvl" Type="tinyint" />
+    <Property Name="pub_id" Type="nvarchar" MaxLength="4" Nullable="false" />
+    <Property Name="hire_date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Jobs">
+    <Key>
+      <PropertyRef Name="job_id" />
+    </Key>
+    <Property Name="job_id" Type="smallint" Nullable="false" />
+    <Property Name="job_desc" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="min_lvl" Type="tinyint" Nullable="false" />
+    <Property Name="max_lvl" Type="tinyint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Publishers">
+    <Key>
+      <PropertyRef Name="pub_id" />
+    </Key>
+    <Property Name="pub_id" Type="nvarchar" MaxLength="4" Nullable="false" />
+    <Property Name="pub_name" Type="nvarchar" MaxLength="40" />
+    <Property Name="city" Type="nvarchar" MaxLength="20" />
+    <Property Name="state" Type="nvarchar" MaxLength="2" />
+    <Property Name="country" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Sales">
+    <Key>
+      <PropertyRef Name="stor_id" />
+      <PropertyRef Name="ord_num" />
+      <PropertyRef Name="title_id" />
+    </Key>
+    <Property Name="stor_id" Type="nvarchar" MaxLength="4" Nullable="false" />
+    <Property Name="ord_num" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="ord_date" Type="datetime" Nullable="false" />
+    <Property Name="qty" Type="smallint" Nullable="false" />
+    <Property Name="payterms" Type="nvarchar" MaxLength="12" />
+    <Property Name="title_id" Type="nvarchar" MaxLength="6" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Stores">
+    <Key>
+      <PropertyRef Name="stor_id" />
+    </Key>
+    <Property Name="stor_id" Type="nvarchar" MaxLength="4" Nullable="false" />
+    <Property Name="stor_name" Type="nvarchar" MaxLength="40" />
+    <Property Name="stor_address" Type="nvarchar" MaxLength="40" />
+    <Property Name="city" Type="nvarchar" MaxLength="20" />
+    <Property Name="state" Type="nvarchar" MaxLength="2" />
+    <Property Name="zip" Type="nvarchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="Titles">
+    <Key>
+      <PropertyRef Name="title_id" />
+    </Key>
+    <Property Name="title_id" Type="nvarchar" MaxLength="6" Nullable="false" />
+    <Property Name="title_name" Type="nvarchar" MaxLength="80" Nullable="false" />
+    <Property Name="type" Type="nvarchar" MaxLength="12" Nullable="false" />
+    <Property Name="pub_id" Type="nvarchar" MaxLength="4" />
+    <Property Name="price" Type="money" />
+    <Property Name="advance" Type="money" />
+    <Property Name="royalty" Type="int" />
+    <Property Name="ytd_sales" Type="int" />
+    <Property Name="notes" Type="nvarchar" MaxLength="200" />
+    <Property Name="pubdate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TitlesAuthors">
+    <Key>
+      <PropertyRef Name="au_id" />
+      <PropertyRef Name="title_id" />
+    </Key>
+    <Property Name="au_id" Type="nvarchar" MaxLength="11" Nullable="false" />
+    <Property Name="title_id" Type="nvarchar" MaxLength="6" Nullable="false" />
+    <Property Name="au_ord" Type="tinyint" />
+    <Property Name="royaltyper" Type="int" />
+  </EntityType>
+  <Association Name="FK_employee_jobs">
+    <End Role="Jobs" Type="Self.Jobs" Multiplicity="1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Jobs">
+        <PropertyRef Name="job_id" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="job_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_employee_publishers">
+    <End Role="Publishers" Type="Self.Publishers" Multiplicity="1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publishers">
+        <PropertyRef Name="pub_id" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="pub_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_sales_stores">
+    <End Role="Stores" Type="Self.Stores" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stores">
+        <PropertyRef Name="stor_id" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="stor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_sales_titles">
+    <End Role="Titles" Type="Self.Titles" Multiplicity="1" />
+    <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Titles">
+        <PropertyRef Name="title_id" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="title_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_titleauthor_authors">
+    <End Role="Authors" Type="Self.Authors" Multiplicity="1" />
+    <End Role="TitlesAuthors" Type="Self.TitlesAuthors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Authors">
+        <PropertyRef Name="au_id" />
+      </Principal>
+      <Dependent Role="TitlesAuthors">
+        <PropertyRef Name="au_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_titles_publishers">
+    <End Role="Publishers" Type="Self.Publishers" Multiplicity="0..1" />
+    <End Role="Titles" Type="Self.Titles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publishers">
+        <PropertyRef Name="pub_id" />
+      </Principal>
+      <Dependent Role="Titles">
+        <PropertyRef Name="pub_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TitlesAuthors_titles">
+    <End Role="Titles" Type="Self.Titles" Multiplicity="1" />
+    <End Role="TitlesAuthors" Type="Self.TitlesAuthors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Titles">
+        <PropertyRef Name="title_id" />
+      </Principal>
+      <Dependent Role="TitlesAuthors">
+        <PropertyRef Name="title_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PublisherModelStoreContainer">
+    <EntitySet Name="Authors" EntityType="Self.Authors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Discounts" EntityType="Self.Discounts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employees" EntityType="Self.Employees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Jobs" EntityType="Self.Jobs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Publishers" EntityType="Self.Publishers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sales" EntityType="Self.Sales" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Stores" EntityType="Self.Stores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Titles" EntityType="Self.Titles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TitlesAuthors" EntityType="Self.TitlesAuthors" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_employee_jobs" Association="Self.FK_employee_jobs">
+      <End Role="Jobs" EntitySet="Jobs" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_employee_publishers" Association="Self.FK_employee_publishers">
+      <End Role="Publishers" EntitySet="Publishers" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_sales_stores" Association="Self.FK_sales_stores">
+      <End Role="Stores" EntitySet="Stores" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_sales_titles" Association="Self.FK_sales_titles">
+      <End Role="Titles" EntitySet="Titles" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_titleauthor_authors" Association="Self.FK_titleauthor_authors">
+      <End Role="Authors" EntitySet="Authors" />
+      <End Role="TitlesAuthors" EntitySet="TitlesAuthors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_titles_publishers" Association="Self.FK_titles_publishers">
+      <End Role="Publishers" EntitySet="Publishers" />
+      <End Role="Titles" EntitySet="Titles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TitlesAuthors_titles" Association="Self.FK_TitlesAuthors_titles">
+      <End Role="Titles" EntitySet="Titles" />
+      <End Role="TitlesAuthors" EntitySet="TitlesAuthors" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

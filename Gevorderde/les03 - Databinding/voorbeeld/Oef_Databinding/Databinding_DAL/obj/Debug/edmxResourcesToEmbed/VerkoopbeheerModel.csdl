@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VerkoopbeheerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Klant">
+    <Key>
+      <PropertyRef Name="Klantnummer" />
+    </Key>
+    <Property Name="Klantnummer" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Bedrijf" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Adres" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Plaats" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Postcode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Land" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Telefoonnummer" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Klanten" FromRole="Klanten" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Orderlijn">
+    <Key>
+      <PropertyRef Name="OrderID" />
+      <PropertyRef Name="Productnummer" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="Productnummer" Type="Int32" Nullable="false" />
+    <Property Name="Eenheidsprijs" Type="Double" Nullable="false" />
+    <Property Name="Hoeveelheid" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="Order" Relationship="Self.FK_Orderlijnen_Orders" FromRole="Orderlijnen" ToRole="Orders" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_Orderlijnen_Producten" FromRole="Orderlijnen" ToRole="Producten" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="Klantnummer" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="WerknemerID" Type="Int32" />
+    <Property Name="Orderdatum" Type="DateTime" Precision="3" />
+    <Property Name="VerzendBedrijf" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="Verzendadres" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Verzendplaats" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Verzendpostcode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Verzendland" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Klant" Relationship="Self.FK_Orders_Klanten" FromRole="Orders" ToRole="Klanten" />
+    <NavigationProperty Name="Orderlijnen" Relationship="Self.FK_Orderlijnen_Orders" FromRole="Orders" ToRole="Orderlijnen" />
+    <NavigationProperty Name="Werknemer" Relationship="Self.FK_Orders_Werknemers" FromRole="Orders" ToRole="Werknemers" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Nummer" />
+    </Key>
+    <Property Name="Nummer" Type="Int32" Nullable="false" />
+    <Property Name="Naam" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Verpakking" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Prijs" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Voorraad" Type="Int16" />
+    <NavigationProperty Name="Orderlijnen" Relationship="Self.FK_Orderlijnen_Producten" FromRole="Producten" ToRole="Orderlijnen" />
+  </EntityType>
+  <EntityType Name="Werknemer">
+    <Key>
+      <PropertyRef Name="WerknemerID" />
+    </Key>
+    <Property Name="WerknemerID" Type="Int32" Nullable="false" />
+    <Property Name="Achternaam" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Voornaam" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Functie" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Beleefdheidstitel" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Geboortedatum" Type="DateTime" Precision="3" />
+    <Property Name="In_dienst" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Werknemers" FromRole="Werknemers" ToRole="Orders" />
+  </EntityType>
+  <Association Name="FK_Orders_Klanten">
+    <End Role="Klanten" Type="VerkoopbeheerModel.Klant" Multiplicity="0..1" />
+    <End Role="Orders" Type="VerkoopbeheerModel.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klanten">
+        <PropertyRef Name="Klantnummer" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="Klantnummer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orderlijnen_Orders">
+    <End Role="Orders" Type="VerkoopbeheerModel.Order" Multiplicity="1" />
+    <End Role="Orderlijnen" Type="VerkoopbeheerModel.Orderlijn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="OrderID" />
+      </Principal>
+      <Dependent Role="Orderlijnen">
+        <PropertyRef Name="OrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orderlijnen_Producten">
+    <End Role="Producten" Type="VerkoopbeheerModel.Product" Multiplicity="1" />
+    <End Role="Orderlijnen" Type="VerkoopbeheerModel.Orderlijn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producten">
+        <PropertyRef Name="Nummer" />
+      </Principal>
+      <Dependent Role="Orderlijnen">
+        <PropertyRef Name="Productnummer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Werknemers">
+    <End Role="Werknemers" Type="VerkoopbeheerModel.Werknemer" Multiplicity="0..1" />
+    <End Role="Orders" Type="VerkoopbeheerModel.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Werknemers">
+        <PropertyRef Name="WerknemerID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="WerknemerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VerkoopbeheerEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Klanten" EntityType="VerkoopbeheerModel.Klant" />
+    <EntitySet Name="Orderlijnen" EntityType="VerkoopbeheerModel.Orderlijn" />
+    <EntitySet Name="Orders" EntityType="VerkoopbeheerModel.Order" />
+    <EntitySet Name="Producten" EntityType="VerkoopbeheerModel.Product" />
+    <EntitySet Name="Werknemers" EntityType="VerkoopbeheerModel.Werknemer" />
+    <AssociationSet Name="FK_Orders_Klanten" Association="Self.FK_Orders_Klanten">
+      <End Role="Klanten" EntitySet="Klanten" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orderlijnen_Orders" Association="Self.FK_Orderlijnen_Orders">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="Orderlijnen" EntitySet="Orderlijnen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orderlijnen_Producten" Association="Self.FK_Orderlijnen_Producten">
+      <End Role="Producten" EntitySet="Producten" />
+      <End Role="Orderlijnen" EntitySet="Orderlijnen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Werknemers" Association="Self.FK_Orders_Werknemers">
+      <End Role="Werknemers" EntitySet="Werknemers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

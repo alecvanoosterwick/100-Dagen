@@ -1,0 +1,60 @@
+D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.dll.config
+D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.dll
+D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.pdb
+D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.dll
+D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.xml
+D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csprojAssemblyReference.cache
+D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csproj.CoreCompileInputs.cache
+D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csproj.CopyComplete
+D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.dll
+D:\TM - Programming advanced\les03 - WPF Databinding + validation\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.pdb
+D:\TM - Programming advanced\les21 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.dll.config
+D:\TM - Programming advanced\les21 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.dll
+D:\TM - Programming advanced\les21 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.pdb
+D:\TM - Programming advanced\les21 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.dll
+D:\TM - Programming advanced\les21 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\TM - Programming advanced\les21 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.xml
+D:\TM - Programming advanced\les21 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\TM - Programming advanced\les21 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csprojAssemblyReference.cache
+D:\TM - Programming advanced\les21 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csproj.CoreCompileInputs.cache
+D:\TM - Programming advanced\les21 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csproj.CopyComplete
+D:\TM - Programming advanced\les21 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.dll
+D:\TM - Programming advanced\les21 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.pdb
+C:\Users\u0093666\Downloads\les03 - Databinding V2\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.dll.config
+C:\Users\u0093666\Downloads\les03 - Databinding V2\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.dll
+C:\Users\u0093666\Downloads\les03 - Databinding V2\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.pdb
+C:\Users\u0093666\Downloads\les03 - Databinding V2\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.dll
+C:\Users\u0093666\Downloads\les03 - Databinding V2\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\u0093666\Downloads\les03 - Databinding V2\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.xml
+C:\Users\u0093666\Downloads\les03 - Databinding V2\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\u0093666\Downloads\les03 - Databinding V2\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csproj.AssemblyReference.cache
+C:\Users\u0093666\Downloads\les03 - Databinding V2\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csproj.CoreCompileInputs.cache
+C:\Users\u0093666\Downloads\les03 - Databinding V2\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csproj.CopyComplete
+C:\Users\u0093666\Downloads\les03 - Databinding V2\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.dll
+C:\Users\u0093666\Downloads\les03 - Databinding V2\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.pdb
+C:\Users\u0093666\OneDrive - Thomas More\TM - Programming advanced\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.dll.config
+C:\Users\u0093666\OneDrive - Thomas More\TM - Programming advanced\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.dll
+C:\Users\u0093666\OneDrive - Thomas More\TM - Programming advanced\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.pdb
+C:\Users\u0093666\OneDrive - Thomas More\TM - Programming advanced\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.dll
+C:\Users\u0093666\OneDrive - Thomas More\TM - Programming advanced\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\u0093666\OneDrive - Thomas More\TM - Programming advanced\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.xml
+C:\Users\u0093666\OneDrive - Thomas More\TM - Programming advanced\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\u0093666\OneDrive - Thomas More\TM - Programming advanced\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csproj.AssemblyReference.cache
+C:\Users\u0093666\OneDrive - Thomas More\TM - Programming advanced\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csproj.CoreCompileInputs.cache
+C:\Users\u0093666\OneDrive - Thomas More\TM - Programming advanced\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csproj.CopyComplete
+C:\Users\u0093666\OneDrive - Thomas More\TM - Programming advanced\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.dll
+C:\Users\u0093666\OneDrive - Thomas More\TM - Programming advanced\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.pdb
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.dll.config
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.dll
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\Databinding_DAL.pdb
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.dll
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.xml
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csprojAssemblyReference.cache
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csproj.CoreCompileInputs.cache
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.csproj.CopyComplete
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.dll
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\voorbeeld\Oef_Databinding\Databinding_DAL\obj\Debug\Databinding_DAL.pdb

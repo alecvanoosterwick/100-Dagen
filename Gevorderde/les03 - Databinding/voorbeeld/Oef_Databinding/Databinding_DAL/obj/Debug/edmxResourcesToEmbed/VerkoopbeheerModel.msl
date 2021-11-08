@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VerkoopbeheerModelStoreContainer" CdmEntityContainer="VerkoopbeheerEntities">
+    <EntitySetMapping Name="Klanten">
+      <EntityTypeMapping TypeName="VerkoopbeheerModel.Klant">
+        <MappingFragment StoreEntitySet="Klanten">
+          <ScalarProperty Name="Klantnummer" ColumnName="Klantnummer" />
+          <ScalarProperty Name="Bedrijf" ColumnName="Bedrijf" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Plaats" ColumnName="Plaats" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="Land" ColumnName="Land" />
+          <ScalarProperty Name="Telefoonnummer" ColumnName="Telefoonnummer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orderlijnen">
+      <EntityTypeMapping TypeName="VerkoopbeheerModel.Orderlijn">
+        <MappingFragment StoreEntitySet="Orderlijnen">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="Productnummer" ColumnName="Productnummer" />
+          <ScalarProperty Name="Eenheidsprijs" ColumnName="Eenheidsprijs" />
+          <ScalarProperty Name="Hoeveelheid" ColumnName="Hoeveelheid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="VerkoopbeheerModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="Klantnummer" ColumnName="Klantnummer" />
+          <ScalarProperty Name="WerknemerID" ColumnName="WerknemerID" />
+          <ScalarProperty Name="Orderdatum" ColumnName="Orderdatum" />
+          <ScalarProperty Name="VerzendBedrijf" ColumnName="VerzendBedrijf" />
+          <ScalarProperty Name="Verzendadres" ColumnName="Verzendadres" />
+          <ScalarProperty Name="Verzendplaats" ColumnName="Verzendplaats" />
+          <ScalarProperty Name="Verzendpostcode" ColumnName="Verzendpostcode" />
+          <ScalarProperty Name="Verzendland" ColumnName="Verzendland" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Producten">
+      <EntityTypeMapping TypeName="VerkoopbeheerModel.Product">
+        <MappingFragment StoreEntitySet="Producten">
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="Naam" ColumnName="Naam" />
+          <ScalarProperty Name="Verpakking" ColumnName="Verpakking" />
+          <ScalarProperty Name="Prijs" ColumnName="Prijs" />
+          <ScalarProperty Name="Voorraad" ColumnName="Voorraad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Werknemers">
+      <EntityTypeMapping TypeName="VerkoopbeheerModel.Werknemer">
+        <MappingFragment StoreEntitySet="Werknemers">
+          <ScalarProperty Name="WerknemerID" ColumnName="WerknemerID" />
+          <ScalarProperty Name="Achternaam" ColumnName="Achternaam" />
+          <ScalarProperty Name="Voornaam" ColumnName="Voornaam" />
+          <ScalarProperty Name="Functie" ColumnName="Functie" />
+          <ScalarProperty Name="Beleefdheidstitel" ColumnName="Beleefdheidstitel" />
+          <ScalarProperty Name="Geboortedatum" ColumnName="Geboortedatum" />
+          <ScalarProperty Name="In_dienst" ColumnName="In dienst" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,72 @@
+20:47:01 
+InvalidOperationException
+A referential integrity constraint violation occurred: The property value(s) of 'Job.job_id' on one end of a relationship do not match the property value(s) of 'Employee.job_id' on the other end.
+   bij System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.CheckReferentialConstraintProperties(EntityEntry ownerEntry)
+   bij System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.CheckReferentialConstraintProperties(EntityEntry ownerEntry)
+   bij System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   bij System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   bij System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClass16_0.<Attach>b__0()
+   bij System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   bij System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   bij System.Data.Entity.Internal.InternalEntityEntry.set_State(EntityState value)
+   bij System.Data.Entity.Infrastructure.DbEntityEntry`1.set_State(EntityState value)
+   bij Publishers_DAL.DatabaseOperations.AanpassenWerknemer(Employee employee) in D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_DAL\DatabaseOperations.cs:regel 132
+--------------------------------------------------------------------------------
+
+20:47:59 
+InvalidOperationException
+A referential integrity constraint violation occurred: The property value(s) of 'Job.job_id' on one end of a relationship do not match the property value(s) of 'Employee.job_id' on the other end.
+   bij System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.CheckReferentialConstraintProperties(EntityEntry ownerEntry)
+   bij System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.CheckReferentialConstraintProperties(EntityEntry ownerEntry)
+   bij System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   bij System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   bij System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClass16_0.<Attach>b__0()
+   bij System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   bij System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   bij System.Data.Entity.Internal.InternalEntityEntry.set_State(EntityState value)
+   bij System.Data.Entity.Infrastructure.DbEntityEntry`1.set_State(EntityState value)
+   bij Publishers_DAL.DatabaseOperations.AanpassenWerknemer(Employee employee) in D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_DAL\DatabaseOperations.cs:regel 132
+--------------------------------------------------------------------------------
+
+20:50:57 
+InvalidOperationException
+A referential integrity constraint violation occurred: The property value(s) of 'Job.job_id' on one end of a relationship do not match the property value(s) of 'Employee.job_id' on the other end.
+   bij System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.CheckReferentialConstraintProperties(EntityEntry ownerEntry)
+   bij System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.CheckReferentialConstraintProperties(EntityEntry ownerEntry)
+   bij System.Data.Entity.Core.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet)
+   bij System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   bij System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClass16_0.<Attach>b__0()
+   bij System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   bij System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   bij System.Data.Entity.Internal.InternalEntityEntry.set_State(EntityState value)
+   bij System.Data.Entity.Infrastructure.DbEntityEntry`1.set_State(EntityState value)
+   bij Publishers_DAL.DatabaseOperations.AanpassenWerknemer(Employee employee) in D:\TM - Datamanipulatie\les09 - EF CUD\oplossingen oefeningen EF CUD\Oef_Publishers\Publishers_DAL\DatabaseOperations.cs:regel 132
+--------------------------------------------------------------------------------
+
+20:12:40 
+DbUpdateException
+An error occurred while updating the entries. See the inner exception for details.
+   bij System.Data.Entity.Internal.InternalContext.SaveChanges()
+   bij System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   bij System.Data.Entity.DbContext.SaveChanges()
+   bij Publishers_DAL.DatabaseOperations.ToevoegenWerknemer(Employee employee) in D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_DAL\DatabaseOperations.cs:regel 114
+--------------------------------------------------------------------------------
+
+20:19:42 
+DbUpdateException
+An error occurred while updating the entries. See the inner exception for details.
+   bij System.Data.Entity.Internal.InternalContext.SaveChanges()
+   bij System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   bij System.Data.Entity.DbContext.SaveChanges()
+   bij Publishers_DAL.DatabaseOperations.ToevoegenWerknemer(Employee employee) in D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_DAL\DatabaseOperations.cs:regel 114
+--------------------------------------------------------------------------------
+
+20:20:22 
+DbUpdateException
+An error occurred while updating the entries. See the inner exception for details.
+   bij System.Data.Entity.Internal.InternalContext.SaveChanges()
+   bij System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   bij System.Data.Entity.DbContext.SaveChanges()
+   bij Publishers_DAL.DatabaseOperations.ToevoegenWerknemer(Employee employee) in D:\TM - Programming advanced\les21 - Databinding\Oef_Publishers\Publishers_DAL\DatabaseOperations.cs:regel 114
+--------------------------------------------------------------------------------
+

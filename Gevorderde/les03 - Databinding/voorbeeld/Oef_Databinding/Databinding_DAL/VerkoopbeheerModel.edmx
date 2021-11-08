@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="VerkoopbeheerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Klanten">
+          <Key>
+            <PropertyRef Name="Klantnummer" />
+          </Key>
+          <Property Name="Klantnummer" Type="nvarchar" MaxLength="5" Nullable="false" />
+          <Property Name="Bedrijf" Type="nvarchar" MaxLength="40" Nullable="false" />
+          <Property Name="Adres" Type="nvarchar" MaxLength="60" />
+          <Property Name="Plaats" Type="nvarchar" MaxLength="15" />
+          <Property Name="Postcode" Type="nvarchar" MaxLength="10" />
+          <Property Name="Land" Type="nvarchar" MaxLength="15" />
+          <Property Name="Telefoonnummer" Type="nvarchar" MaxLength="24" />
+        </EntityType>
+        <EntityType Name="Orderlijnen">
+          <Key>
+            <PropertyRef Name="OrderID" />
+            <PropertyRef Name="Productnummer" />
+          </Key>
+          <Property Name="OrderID" Type="int" Nullable="false" />
+          <Property Name="Productnummer" Type="int" Nullable="false" />
+          <Property Name="Eenheidsprijs" Type="float" Nullable="false" />
+          <Property Name="Hoeveelheid" Type="smallint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Orders">
+          <Key>
+            <PropertyRef Name="OrderID" />
+          </Key>
+          <Property Name="OrderID" Type="int" Nullable="false" />
+          <Property Name="Klantnummer" Type="nvarchar" MaxLength="5" />
+          <Property Name="WerknemerID" Type="int" />
+          <Property Name="Orderdatum" Type="datetime" />
+          <Property Name="VerzendBedrijf" Type="nvarchar" MaxLength="40" />
+          <Property Name="Verzendadres" Type="nvarchar" MaxLength="60" />
+          <Property Name="Verzendplaats" Type="nvarchar" MaxLength="15" />
+          <Property Name="Verzendpostcode" Type="nvarchar" MaxLength="10" />
+          <Property Name="Verzendland" Type="nvarchar" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="Producten">
+          <Key>
+            <PropertyRef Name="Nummer" />
+          </Key>
+          <Property Name="Nummer" Type="int" Nullable="false" />
+          <Property Name="Naam" Type="nvarchar" MaxLength="40" Nullable="false" />
+          <Property Name="Verpakking" Type="nvarchar" MaxLength="20" />
+          <Property Name="Prijs" Type="money" />
+          <Property Name="Voorraad" Type="smallint" />
+        </EntityType>
+        <EntityType Name="Werknemers">
+          <Key>
+            <PropertyRef Name="WerknemerID" />
+          </Key>
+          <Property Name="WerknemerID" Type="int" Nullable="false" />
+          <Property Name="Achternaam" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Voornaam" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="Functie" Type="nvarchar" MaxLength="30" />
+          <Property Name="Beleefdheidstitel" Type="nvarchar" MaxLength="25" />
+          <Property Name="Geboortedatum" Type="datetime" />
+          <Property Name="In dienst" Type="datetime" />
+        </EntityType>
+        <Association Name="FK_Orderlijnen_Orders">
+          <End Role="Orders" Type="Self.Orders" Multiplicity="1" />
+          <End Role="Orderlijnen" Type="Self.Orderlijnen" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Orders">
+              <PropertyRef Name="OrderID" />
+            </Principal>
+            <Dependent Role="Orderlijnen">
+              <PropertyRef Name="OrderID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Orderlijnen_Producten">
+          <End Role="Producten" Type="Self.Producten" Multiplicity="1" />
+          <End Role="Orderlijnen" Type="Self.Orderlijnen" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Producten">
+              <PropertyRef Name="Nummer" />
+            </Principal>
+            <Dependent Role="Orderlijnen">
+              <PropertyRef Name="Productnummer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Orders_Klanten">
+          <End Role="Klanten" Type="Self.Klanten" Multiplicity="0..1" />
+          <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Klanten">
+              <PropertyRef Name="Klantnummer" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="Klantnummer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Orders_Werknemers">
+          <End Role="Werknemers" Type="Self.Werknemers" Multiplicity="0..1" />
+          <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Werknemers">
+              <PropertyRef Name="WerknemerID" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="WerknemerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="VerkoopbeheerModelStoreContainer">
+          <EntitySet Name="Klanten" EntityType="Self.Klanten" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Orderlijnen" EntityType="Self.Orderlijnen" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Producten" EntityType="Self.Producten" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Werknemers" EntityType="Self.Werknemers" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Orderlijnen_Orders" Association="Self.FK_Orderlijnen_Orders">
+            <End Role="Orders" EntitySet="Orders" />
+            <End Role="Orderlijnen" EntitySet="Orderlijnen" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Orderlijnen_Producten" Association="Self.FK_Orderlijnen_Producten">
+            <End Role="Producten" EntitySet="Producten" />
+            <End Role="Orderlijnen" EntitySet="Orderlijnen" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Orders_Klanten" Association="Self.FK_Orders_Klanten">
+            <End Role="Klanten" EntitySet="Klanten" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Orders_Werknemers" Association="Self.FK_Orders_Werknemers">
+            <End Role="Werknemers" EntitySet="Werknemers" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VerkoopbeheerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Klant">
+          <Key>
+            <PropertyRef Name="Klantnummer" />
+          </Key>
+          <Property Name="Klantnummer" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Bedrijf" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Adres" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="Plaats" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="Postcode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Land" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="Telefoonnummer" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Klanten" FromRole="Klanten" ToRole="Orders" />
+        </EntityType>
+        <EntityType Name="Orderlijn">
+          <Key>
+            <PropertyRef Name="OrderID" />
+            <PropertyRef Name="Productnummer" />
+          </Key>
+          <Property Name="OrderID" Type="Int32" Nullable="false" />
+          <Property Name="Productnummer" Type="Int32" Nullable="false" />
+          <Property Name="Eenheidsprijs" Type="Double" Nullable="false" />
+          <Property Name="Hoeveelheid" Type="Int16" Nullable="false" />
+          <NavigationProperty Name="Order" Relationship="Self.FK_Orderlijnen_Orders" FromRole="Orderlijnen" ToRole="Orders" />
+          <NavigationProperty Name="Product" Relationship="Self.FK_Orderlijnen_Producten" FromRole="Orderlijnen" ToRole="Producten" />
+        </EntityType>
+        <EntityType Name="Order">
+          <Key>
+            <PropertyRef Name="OrderID" />
+          </Key>
+          <Property Name="OrderID" Type="Int32" Nullable="false" />
+          <Property Name="Klantnummer" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+          <Property Name="WerknemerID" Type="Int32" />
+          <Property Name="Orderdatum" Type="DateTime" Precision="3" />
+          <Property Name="VerzendBedrijf" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="Verzendadres" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="Verzendplaats" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="Verzendpostcode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Verzendland" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Klant" Relationship="Self.FK_Orders_Klanten" FromRole="Orders" ToRole="Klanten" />
+          <NavigationProperty Name="Orderlijnen" Relationship="Self.FK_Orderlijnen_Orders" FromRole="Orders" ToRole="Orderlijnen" />
+          <NavigationProperty Name="Werknemer" Relationship="Self.FK_Orders_Werknemers" FromRole="Orders" ToRole="Werknemers" />
+        </EntityType>
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="Nummer" />
+          </Key>
+          <Property Name="Nummer" Type="Int32" Nullable="false" />
+          <Property Name="Naam" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Verpakking" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Prijs" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Voorraad" Type="Int16" />
+          <NavigationProperty Name="Orderlijnen" Relationship="Self.FK_Orderlijnen_Producten" FromRole="Producten" ToRole="Orderlijnen" />
+        </EntityType>
+        <EntityType Name="Werknemer">
+          <Key>
+            <PropertyRef Name="WerknemerID" />
+          </Key>
+          <Property Name="WerknemerID" Type="Int32" Nullable="false" />
+          <Property Name="Achternaam" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Voornaam" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Functie" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="Beleefdheidstitel" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="Geboortedatum" Type="DateTime" Precision="3" />
+          <Property Name="In_dienst" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Werknemers" FromRole="Werknemers" ToRole="Orders" />
+        </EntityType>
+        <Association Name="FK_Orders_Klanten">
+          <End Role="Klanten" Type="VerkoopbeheerModel.Klant" Multiplicity="0..1" />
+          <End Role="Orders" Type="VerkoopbeheerModel.Order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Klanten">
+              <PropertyRef Name="Klantnummer" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="Klantnummer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Orderlijnen_Orders">
+          <End Role="Orders" Type="VerkoopbeheerModel.Order" Multiplicity="1" />
+          <End Role="Orderlijnen" Type="VerkoopbeheerModel.Orderlijn" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Orders">
+              <PropertyRef Name="OrderID" />
+            </Principal>
+            <Dependent Role="Orderlijnen">
+              <PropertyRef Name="OrderID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Orderlijnen_Producten">
+          <End Role="Producten" Type="VerkoopbeheerModel.Product" Multiplicity="1" />
+          <End Role="Orderlijnen" Type="VerkoopbeheerModel.Orderlijn" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Producten">
+              <PropertyRef Name="Nummer" />
+            </Principal>
+            <Dependent Role="Orderlijnen">
+              <PropertyRef Name="Productnummer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Orders_Werknemers">
+          <End Role="Werknemers" Type="VerkoopbeheerModel.Werknemer" Multiplicity="0..1" />
+          <End Role="Orders" Type="VerkoopbeheerModel.Order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Werknemers">
+              <PropertyRef Name="WerknemerID" />
+            </Principal>
+            <Dependent Role="Orders">
+              <PropertyRef Name="WerknemerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="VerkoopbeheerEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Klanten" EntityType="VerkoopbeheerModel.Klant" />
+          <EntitySet Name="Orderlijnen" EntityType="VerkoopbeheerModel.Orderlijn" />
+          <EntitySet Name="Orders" EntityType="VerkoopbeheerModel.Order" />
+          <EntitySet Name="Producten" EntityType="VerkoopbeheerModel.Product" />
+          <EntitySet Name="Werknemers" EntityType="VerkoopbeheerModel.Werknemer" />
+          <AssociationSet Name="FK_Orders_Klanten" Association="Self.FK_Orders_Klanten">
+            <End Role="Klanten" EntitySet="Klanten" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Orderlijnen_Orders" Association="Self.FK_Orderlijnen_Orders">
+            <End Role="Orders" EntitySet="Orders" />
+            <End Role="Orderlijnen" EntitySet="Orderlijnen" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Orderlijnen_Producten" Association="Self.FK_Orderlijnen_Producten">
+            <End Role="Producten" EntitySet="Producten" />
+            <End Role="Orderlijnen" EntitySet="Orderlijnen" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Orders_Werknemers" Association="Self.FK_Orders_Werknemers">
+            <End Role="Werknemers" EntitySet="Werknemers" />
+            <End Role="Orders" EntitySet="Orders" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="VerkoopbeheerModelStoreContainer" CdmEntityContainer="VerkoopbeheerEntities">
+          <EntitySetMapping Name="Klanten">
+            <EntityTypeMapping TypeName="VerkoopbeheerModel.Klant">
+              <MappingFragment StoreEntitySet="Klanten">
+                <ScalarProperty Name="Klantnummer" ColumnName="Klantnummer" />
+                <ScalarProperty Name="Bedrijf" ColumnName="Bedrijf" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="Plaats" ColumnName="Plaats" />
+                <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+                <ScalarProperty Name="Land" ColumnName="Land" />
+                <ScalarProperty Name="Telefoonnummer" ColumnName="Telefoonnummer" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Orderlijnen">
+            <EntityTypeMapping TypeName="VerkoopbeheerModel.Orderlijn">
+              <MappingFragment StoreEntitySet="Orderlijnen">
+                <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+                <ScalarProperty Name="Productnummer" ColumnName="Productnummer" />
+                <ScalarProperty Name="Eenheidsprijs" ColumnName="Eenheidsprijs" />
+                <ScalarProperty Name="Hoeveelheid" ColumnName="Hoeveelheid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Orders">
+            <EntityTypeMapping TypeName="VerkoopbeheerModel.Order">
+              <MappingFragment StoreEntitySet="Orders">
+                <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+                <ScalarProperty Name="Klantnummer" ColumnName="Klantnummer" />
+                <ScalarProperty Name="WerknemerID" ColumnName="WerknemerID" />
+                <ScalarProperty Name="Orderdatum" ColumnName="Orderdatum" />
+                <ScalarProperty Name="VerzendBedrijf" ColumnName="VerzendBedrijf" />
+                <ScalarProperty Name="Verzendadres" ColumnName="Verzendadres" />
+                <ScalarProperty Name="Verzendplaats" ColumnName="Verzendplaats" />
+                <ScalarProperty Name="Verzendpostcode" ColumnName="Verzendpostcode" />
+                <ScalarProperty Name="Verzendland" ColumnName="Verzendland" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Producten">
+            <EntityTypeMapping TypeName="VerkoopbeheerModel.Product">
+              <MappingFragment StoreEntitySet="Producten">
+                <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+                <ScalarProperty Name="Naam" ColumnName="Naam" />
+                <ScalarProperty Name="Verpakking" ColumnName="Verpakking" />
+                <ScalarProperty Name="Prijs" ColumnName="Prijs" />
+                <ScalarProperty Name="Voorraad" ColumnName="Voorraad" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Werknemers">
+            <EntityTypeMapping TypeName="VerkoopbeheerModel.Werknemer">
+              <MappingFragment StoreEntitySet="Werknemers">
+                <ScalarProperty Name="WerknemerID" ColumnName="WerknemerID" />
+                <ScalarProperty Name="Achternaam" ColumnName="Achternaam" />
+                <ScalarProperty Name="Voornaam" ColumnName="Voornaam" />
+                <ScalarProperty Name="Functie" ColumnName="Functie" />
+                <ScalarProperty Name="Beleefdheidstitel" ColumnName="Beleefdheidstitel" />
+                <ScalarProperty Name="Geboortedatum" ColumnName="Geboortedatum" />
+                <ScalarProperty Name="In_dienst" ColumnName="In dienst" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

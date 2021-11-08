@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="80bf6afc78684d33a49e305988c5932b" Name="Diagram1">
+        <EntityTypeShape EntityType="VerkoopbeheerModel.Klant" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VerkoopbeheerModel.Orderlijn" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="VerkoopbeheerModel.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VerkoopbeheerModel.Product" Width="1.5" PointX="7.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VerkoopbeheerModel.Werknemer" Width="1.5" PointX="9.375" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="VerkoopbeheerModel.FK_Orders_Klanten" ManuallyRouted="false" />
+        <AssociationConnector Association="VerkoopbeheerModel.FK_Orderlijnen_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="VerkoopbeheerModel.FK_Orderlijnen_Producten" ManuallyRouted="false" />
+        <AssociationConnector Association="VerkoopbeheerModel.FK_Orders_Werknemers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
