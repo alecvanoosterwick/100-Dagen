@@ -252,3 +252,8 @@ C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_WPF\
 C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\App.g.cs
 C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.cache
 C:\Users\Alec\Downloads\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.lref
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF.csprojAssemblyReference.cache
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\Views\MainView.g.cs
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\App.g.cs
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.cache
+C:\Users\Alec\100-Dagen\Gevorderde\les03 - Databinding\startproject\startproject\Oef_Publishers\Publishers_WPF\obj\Debug\Publishers_WPF_MarkupCompile.lref

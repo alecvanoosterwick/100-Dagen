@@ -35,7 +35,7 @@
                   VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Margin="5"/>
         <Button x:Name="btnZoekWinkels" Content="Zoek Winkels" Grid.Row="0" Grid.Column="1" Margin="5" Command="{Binding}" CommandParameter="Zoeken"/>
               
-        <DataGrid x:Name="datagridStores"   
+        <DataGrid x:Name="datagridStores" ItemsSource="{Binding Stores}"
                   AutoGenerateColumns="True" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" >
             
         </DataGrid>

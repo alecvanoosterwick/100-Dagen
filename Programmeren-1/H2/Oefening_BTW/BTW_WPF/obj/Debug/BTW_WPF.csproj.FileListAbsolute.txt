@@ -1,0 +1,15 @@
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\bin\Debug\BTW_WPF.exe.config
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\bin\Debug\BTW_WPF.exe
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\bin\Debug\BTW_WPF.pdb
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\obj\Debug\BTW_WPF.csprojAssemblyReference.cache
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\obj\Debug\App.g.cs
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\obj\Debug\BTW_WPF_MarkupCompile.cache
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\obj\Debug\BTW_WPF_MarkupCompile.lref
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\obj\Debug\MainWindow.baml
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\obj\Debug\BTW_WPF.g.resources
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\obj\Debug\BTW_WPF.Properties.Resources.resources
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\obj\Debug\BTW_WPF.csproj.GenerateResource.cache
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\obj\Debug\BTW_WPF.csproj.CoreCompileInputs.cache
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\obj\Debug\BTW_WPF.exe
+C:\Users\Alec\100-Dagen\Programmeren-1\H2\Oefening_BTW\BTW_WPF\obj\Debug\BTW_WPF.pdb

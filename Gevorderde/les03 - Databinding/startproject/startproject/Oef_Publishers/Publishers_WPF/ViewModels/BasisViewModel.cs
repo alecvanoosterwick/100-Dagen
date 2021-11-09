@@ -9,7 +9,7 @@ using System.Windows.Input;
 
 namespace Publishers_WPF.ViewModels
 {
-    public abstract class BasisViewModel : IDataErrorInfo, INotifyPropertyChanged, ICommand,
+    public abstract class BasisViewModel : IDataErrorInfo, INotifyPropertyChanged, ICommand
     {
         public event PropertyChangedEventHandler PropertyChanged;
         public abstract event EventHandler CanExecuteChanged;
