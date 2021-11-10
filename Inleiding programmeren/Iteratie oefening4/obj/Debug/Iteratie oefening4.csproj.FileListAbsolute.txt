@@ -1,0 +1,14 @@
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\bin\Debug\Iteratie oefening4.exe.config
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\bin\Debug\Iteratie oefening4.exe
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\bin\Debug\Iteratie oefening4.pdb
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\obj\Debug\Iteratie oefening4.csprojAssemblyReference.cache
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\obj\Debug\Iteratie oefening4.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\obj\Debug\Iteratie oefening4.exe
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\obj\Debug\Iteratie oefening4.pdb
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\bin\Debug\Iteratie oefening4.exe.config
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\bin\Debug\Iteratie oefening4.exe
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\bin\Debug\Iteratie oefening4.pdb
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\obj\Debug\Iteratie oefening4.csprojAssemblyReference.cache
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\obj\Debug\Iteratie oefening4.csproj.CoreCompileInputs.cache
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\obj\Debug\Iteratie oefening4.exe
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Iteratie oefening4\obj\Debug\Iteratie oefening4.pdb

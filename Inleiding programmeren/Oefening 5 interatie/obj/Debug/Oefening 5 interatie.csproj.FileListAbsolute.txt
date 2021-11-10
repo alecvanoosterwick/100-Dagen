@@ -1,0 +1,14 @@
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\bin\Debug\Oefening 5 interatie.exe.config
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\bin\Debug\Oefening 5 interatie.exe
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\bin\Debug\Oefening 5 interatie.pdb
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\obj\Debug\Oefening 5 interatie.csprojAssemblyReference.cache
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\obj\Debug\Oefening 5 interatie.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\obj\Debug\Oefening 5 interatie.exe
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\obj\Debug\Oefening 5 interatie.pdb
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\bin\Debug\Oefening 5 interatie.exe.config
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\bin\Debug\Oefening 5 interatie.exe
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\bin\Debug\Oefening 5 interatie.pdb
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\obj\Debug\Oefening 5 interatie.csprojAssemblyReference.cache
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\obj\Debug\Oefening 5 interatie.csproj.CoreCompileInputs.cache
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\obj\Debug\Oefening 5 interatie.exe
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\Oefening 5 interatie\obj\Debug\Oefening 5 interatie.pdb

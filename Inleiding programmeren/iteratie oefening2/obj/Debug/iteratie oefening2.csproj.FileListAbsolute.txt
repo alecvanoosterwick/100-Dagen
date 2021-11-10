@@ -1,0 +1,7 @@
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\iteratie oefening2\bin\Debug\iteratie oefening2.exe.config
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\iteratie oefening2\bin\Debug\iteratie oefening2.exe
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\iteratie oefening2\bin\Debug\iteratie oefening2.pdb
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\iteratie oefening2\obj\Debug\iteratie oefening2.csprojAssemblyReference.cache
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\iteratie oefening2\obj\Debug\iteratie oefening2.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\iteratie oefening2\obj\Debug\iteratie oefening2.exe
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\iteratie oefening2\obj\Debug\iteratie oefening2.pdb

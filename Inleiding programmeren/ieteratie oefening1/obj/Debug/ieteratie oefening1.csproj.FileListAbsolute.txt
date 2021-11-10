@@ -1,0 +1,14 @@
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\bin\Debug\ieteratie oefening1.exe.config
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\bin\Debug\ieteratie oefening1.exe
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\bin\Debug\ieteratie oefening1.pdb
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\obj\Debug\ieteratie oefening1.csprojAssemblyReference.cache
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\obj\Debug\ieteratie oefening1.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\obj\Debug\ieteratie oefening1.exe
+C:\Users\Gebruiker\Desktop\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\obj\Debug\ieteratie oefening1.pdb
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\bin\Debug\ieteratie oefening1.exe.config
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\bin\Debug\ieteratie oefening1.exe
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\bin\Debug\ieteratie oefening1.pdb
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\obj\Debug\ieteratie oefening1.csprojAssemblyReference.cache
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\obj\Debug\ieteratie oefening1.csproj.CoreCompileInputs.cache
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\obj\Debug\ieteratie oefening1.exe
+C:\Users\Alec\OneDrive\Bureaublad\visual studio 2019\programmeren\Nieuwe map\iteratie\ieteratie oefening1\obj\Debug\ieteratie oefening1.pdb
