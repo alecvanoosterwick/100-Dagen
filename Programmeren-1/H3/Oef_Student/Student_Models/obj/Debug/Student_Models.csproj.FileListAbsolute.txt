@@ -1,0 +1,6 @@
+C:\Users\u0093666\source\repos\Oef_Student\Student_Models\bin\Debug\Student_Models.dll
+C:\Users\u0093666\source\repos\Oef_Student\Student_Models\bin\Debug\Student_Models.pdb
+C:\Users\u0093666\source\repos\Oef_Student\Student_Models\obj\Debug\Student_Models.csprojAssemblyReference.cache
+C:\Users\u0093666\source\repos\Oef_Student\Student_Models\obj\Debug\Student_Models.csproj.CoreCompileInputs.cache
+C:\Users\u0093666\source\repos\Oef_Student\Student_Models\obj\Debug\Student_Models.dll
+C:\Users\u0093666\source\repos\Oef_Student\Student_Models\obj\Debug\Student_Models.pdb

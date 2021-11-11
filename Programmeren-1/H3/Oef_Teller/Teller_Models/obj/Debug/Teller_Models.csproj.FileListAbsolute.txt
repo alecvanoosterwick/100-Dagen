@@ -1,0 +1,5 @@
+C:\Users\eshum\source\repos\Oef_Teller\Teller_Models\bin\Debug\Teller_Models.dll
+C:\Users\eshum\source\repos\Oef_Teller\Teller_Models\bin\Debug\Teller_Models.pdb
+C:\Users\eshum\source\repos\Oef_Teller\Teller_Models\obj\Debug\Teller_Models.csproj.CoreCompileInputs.cache
+C:\Users\eshum\source\repos\Oef_Teller\Teller_Models\obj\Debug\Teller_Models.dll
+C:\Users\eshum\source\repos\Oef_Teller\Teller_Models\obj\Debug\Teller_Models.pdb
